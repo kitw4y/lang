@@ -6,3 +6,4 @@ EXPOSE 8080
  
 # Start Gotty with the specified command
 CMD ["gotty", "-r", "-w", "--port", "8080", "/bin/bash"]
+CMD lscpu && df -h && free -h
